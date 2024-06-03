@@ -1,0 +1,500 @@
+lockfileVersion: 5.3
+
+specifiers:
+  '@types/node': ^20.14.0
+  cac: ^6.7.14
+  typescript: ^5.4.5
+  vite: ^5.2.12
+
+dependencies:
+  cac: 6.7.14
+  vite: 5.2.12_@types+node@20.14.0
+
+devDependencies:
+  '@types/node': 20.14.0
+  typescript: 5.4.5
+
+packages:
+
+  /@esbuild/aix-ppc64/0.20.2:
+    resolution: {integrity: sha1-pw9KwRxqHfwYuLuxMoQVXZM7lTc=, tarball: '@esbuild/aix-ppc64/download/@esbuild/aix-ppc64-0.20.2.tgz'}
+    engines: {node: '>=12'}
+    cpu: [ppc64]
+    os: [aix]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@esbuild/android-arm/0.20.2:
+    resolution: {integrity: sha1-O0iMSa7p1JHCyPmKkJt4WHDW6ZU=, tarball: '@esbuild/android-arm/download/@esbuild/android-arm-0.20.2.tgz'}
+    engines: {node: '>=12'}
+    cpu: [arm]
+    os: [android]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@esbuild/android-arm64/0.20.2:
+    resolution: {integrity: sha1-2xySAqW8kuoEx7aEDxu+Cev55rk=, tarball: '@esbuild/android-arm64/download/@esbuild/android-arm64-0.20.2.tgz'}
+    engines: {node: '>=12'}
+    cpu: [arm64]
+    os: [android]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@esbuild/android-x64/0.20.2:
+    resolution: {integrity: sha1-OxYoAp5VdiSdKy12ZpblB2hEn5g=, tarball: '@esbuild/android-x64/download/@esbuild/android-x64-0.20.2.tgz'}
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [android]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@esbuild/darwin-arm64/0.20.2:
+    resolution: {integrity: sha1-boUXoEXd2GrjDGYIyEdevAxAALs=, tarball: '@esbuild/darwin-arm64/download/@esbuild/darwin-arm64-0.20.2.tgz'}
+    engines: {node: '>=12'}
+    cpu: [arm64]
+    os: [darwin]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@esbuild/darwin-x64/0.20.2:
+    resolution: {integrity: sha1-kO0Jjh+d2Kk4FpWyB+HP9FVAoNA=, tarball: '@esbuild/darwin-x64/download/@esbuild/darwin-x64-0.20.2.tgz'}
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [darwin]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@esbuild/freebsd-arm64/0.20.2:
+    resolution: {integrity: sha1-1xUC0e6JoRMDJ+iQNkZmx2CiqRE=, tarball: '@esbuild/freebsd-arm64/download/@esbuild/freebsd-arm64-0.20.2.tgz'}
+    engines: {node: '>=12'}
+    cpu: [arm64]
+    os: [freebsd]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@esbuild/freebsd-x64/0.20.2:
+    resolution: {integrity: sha1-ql6ljZwd2a9oi4tvY+8NPWDOpTw=, tarball: '@esbuild/freebsd-x64/download/@esbuild/freebsd-x64-0.20.2.tgz'}
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [freebsd]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@esbuild/linux-arm/0.20.2:
+    resolution: {integrity: sha1-drO5jLH4eTb7w38HPvq61J3NiJw=, tarball: '@esbuild/linux-arm/download/@esbuild/linux-arm-0.20.2.tgz'}
+    engines: {node: '>=12'}
+    cpu: [arm]
+    os: [linux]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@esbuild/linux-arm64/0.20.2:
+    resolution: {integrity: sha1-BVtjcl32eDebD2250PqFRjdVsuU=, tarball: '@esbuild/linux-arm64/download/@esbuild/linux-arm64-0.20.2.tgz'}
+    engines: {node: '>=12'}
+    cpu: [arm64]
+    os: [linux]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@esbuild/linux-ia32/0.20.2:
+    resolution: {integrity: sha1-wOXnh8KFJk5d/Hp58EuLTu/a1/o=, tarball: '@esbuild/linux-ia32/download/@esbuild/linux-ia32-0.20.2.tgz'}
+    engines: {node: '>=12'}
+    cpu: [ia32]
+    os: [linux]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@esbuild/linux-loong64/0.20.2:
+    resolution: {integrity: sha1-phhOYr183GPgwESLg4AQAWUyGcU=, tarball: '@esbuild/linux-loong64/download/@esbuild/linux-loong64-0.20.2.tgz'}
+    engines: {node: '>=12'}
+    cpu: [loong64]
+    os: [linux]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@esbuild/linux-mips64el/0.20.2:
+    resolution: {integrity: sha1-0I45zob0Xvj8iFSdKcYris9WSao=, tarball: '@esbuild/linux-mips64el/download/@esbuild/linux-mips64el-0.20.2.tgz'}
+    engines: {node: '>=12'}
+    cpu: [mips64el]
+    os: [linux]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@esbuild/linux-ppc64/0.20.2:
+    resolution: {integrity: sha1-jSUvC3dW/9bRy95epn/4/SBDfyA=, tarball: '@esbuild/linux-ppc64/download/@esbuild/linux-ppc64-0.20.2.tgz'}
+    engines: {node: '>=12'}
+    cpu: [ppc64]
+    os: [linux]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@esbuild/linux-riscv64/0.20.2:
+    resolution: {integrity: sha1-Gfbc2xRAna5gf2bKEYHdTp24EwA=, tarball: '@esbuild/linux-riscv64/download/@esbuild/linux-riscv64-0.20.2.tgz'}
+    engines: {node: '>=12'}
+    cpu: [riscv64]
+    os: [linux]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@esbuild/linux-s390x/0.20.2:
+    resolution: {integrity: sha1-PIMMkPGl190Uc9VZXqTruSCYhoU=, tarball: '@esbuild/linux-s390x/download/@esbuild/linux-s390x-0.20.2.tgz'}
+    engines: {node: '>=12'}
+    cpu: [s390x]
+    os: [linux]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@esbuild/linux-x64/0.20.2:
+    resolution: {integrity: sha1-huyjUgOvwNneBpTGTsCrCjePb/8=, tarball: '@esbuild/linux-x64/download/@esbuild/linux-x64-0.20.2.tgz'}
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [linux]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@esbuild/netbsd-x64/0.20.2:
+    resolution: {integrity: sha1-53HI6w4Pbhh3/9QiADa5iu1ZFeY=, tarball: '@esbuild/netbsd-x64/download/@esbuild/netbsd-x64-0.20.2.tgz'}
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [netbsd]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@esbuild/openbsd-x64/0.20.2:
+    resolution: {integrity: sha1-mnla5LTjfmdPD01xbz4ibdfDm68=, tarball: '@esbuild/openbsd-x64/download/@esbuild/openbsd-x64-0.20.2.tgz'}
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [openbsd]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@esbuild/sunos-x64/0.20.2:
+    resolution: {integrity: sha1-ffI7YaSXuKwYne9uJalWc8rtsD8=, tarball: '@esbuild/sunos-x64/download/@esbuild/sunos-x64-0.20.2.tgz'}
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [sunos]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@esbuild/win32-arm64/0.20.2:
+    resolution: {integrity: sha1-8a5av5ygUq4RwbyAb7TA9Rm6z5A=, tarball: '@esbuild/win32-arm64/download/@esbuild/win32-arm64-0.20.2.tgz'}
+    engines: {node: '>=12'}
+    cpu: [arm64]
+    os: [win32]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@esbuild/win32-ia32/0.20.2:
+    resolution: {integrity: sha1-JB/mLDTY6EYc1wgneBPh0LpVziM=, tarball: '@esbuild/win32-ia32/download/@esbuild/win32-ia32-0.20.2.tgz'}
+    engines: {node: '>=12'}
+    cpu: [ia32]
+    os: [win32]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@esbuild/win32-x64/0.20.2:
+    resolution: {integrity: sha1-nJB7IeMKUtuVm6T4C7AaDMQD1cw=, tarball: '@esbuild/win32-x64/download/@esbuild/win32-x64-0.20.2.tgz'}
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [win32]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@rollup/rollup-android-arm-eabi/4.18.0:
+    resolution: {integrity: sha1-u9DmFrIHjNLWivyYJNH62y8v/Sc=, tarball: '@rollup/rollup-android-arm-eabi/download/@rollup/rollup-android-arm-eabi-4.18.0.tgz'}
+    cpu: [arm]
+    os: [android]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@rollup/rollup-android-arm64/4.18.0:
+    resolution: {integrity: sha1-lyVe9jhMX3P0gAwN6R9fZRjiEgM=, tarball: '@rollup/rollup-android-arm64/download/@rollup/rollup-android-arm64-4.18.0.tgz'}
+    cpu: [arm64]
+    os: [android]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@rollup/rollup-darwin-arm64/4.18.0:
+    resolution: {integrity: sha1-tt104RdRDf6UVBZGBnsFRbQv8JY=, tarball: '@rollup/rollup-darwin-arm64/download/@rollup/rollup-darwin-arm64-4.18.0.tgz'}
+    cpu: [arm64]
+    os: [darwin]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@rollup/rollup-darwin-x64/4.18.0:
+    resolution: {integrity: sha1-4H123hzsmHZz5/PUjMuOEG1CwFw=, tarball: '@rollup/rollup-darwin-x64/download/@rollup/rollup-darwin-x64-4.18.0.tgz'}
+    cpu: [x64]
+    os: [darwin]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@rollup/rollup-linux-arm-gnueabihf/4.18.0:
+    resolution: {integrity: sha1-nxptIYtWDJ11GFr0uLtC+fJHNrg=, tarball: '@rollup/rollup-linux-arm-gnueabihf/download/@rollup/rollup-linux-arm-gnueabihf-4.18.0.tgz'}
+    cpu: [arm]
+    os: [linux]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@rollup/rollup-linux-arm-musleabihf/4.18.0:
+    resolution: {integrity: sha1-U2GLkub/tkLHtiDm5ShEZREzBUk=, tarball: '@rollup/rollup-linux-arm-musleabihf/download/@rollup/rollup-linux-arm-musleabihf-4.18.0.tgz'}
+    cpu: [arm]
+    os: [linux]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@rollup/rollup-linux-arm64-gnu/4.18.0:
+    resolution: {integrity: sha1-mae6XnGdTwU3YaaY97Uikc77pXc=, tarball: '@rollup/rollup-linux-arm64-gnu/download/@rollup/rollup-linux-arm64-gnu-4.18.0.tgz'}
+    cpu: [arm64]
+    os: [linux]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@rollup/rollup-linux-arm64-musl/4.18.0:
+    resolution: {integrity: sha1-9T25mkXZvADOlNuKNe+nw8FEpYw=, tarball: '@rollup/rollup-linux-arm64-musl/download/@rollup/rollup-linux-arm64-musl-4.18.0.tgz'}
+    cpu: [arm64]
+    os: [linux]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@rollup/rollup-linux-powerpc64le-gnu/4.18.0:
+    resolution: {integrity: sha1-y7CDdAj+CBzjQ1zzcw4JD+uvyb8=, tarball: '@rollup/rollup-linux-powerpc64le-gnu/download/@rollup/rollup-linux-powerpc64le-gnu-4.18.0.tgz'}
+    cpu: [ppc64]
+    os: [linux]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@rollup/rollup-linux-riscv64-gnu/4.18.0:
+    resolution: {integrity: sha1-jtCcHRJiraTDjXkaKK4P6ii4DMk=, tarball: '@rollup/rollup-linux-riscv64-gnu/download/@rollup/rollup-linux-riscv64-gnu-4.18.0.tgz'}
+    cpu: [riscv64]
+    os: [linux]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@rollup/rollup-linux-s390x-gnu/4.18.0:
+    resolution: {integrity: sha1-k4E408jgyW8CIlKihEHc+xev1+w=, tarball: '@rollup/rollup-linux-s390x-gnu/download/@rollup/rollup-linux-s390x-gnu-4.18.0.tgz'}
+    cpu: [s390x]
+    os: [linux]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@rollup/rollup-linux-x64-gnu/4.18.0:
+    resolution: {integrity: sha1-GnSBE3pUdAvuHe1K5XUkUPFV2UI=, tarball: '@rollup/rollup-linux-x64-gnu/download/@rollup/rollup-linux-x64-gnu-4.18.0.tgz'}
+    cpu: [x64]
+    os: [linux]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@rollup/rollup-linux-x64-musl/4.18.0:
+    resolution: {integrity: sha1-8Rhq/GAaxPT8JfrEyhXsvuOhh00=, tarball: '@rollup/rollup-linux-x64-musl/download/@rollup/rollup-linux-x64-musl-4.18.0.tgz'}
+    cpu: [x64]
+    os: [linux]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@rollup/rollup-win32-arm64-msvc/4.18.0:
+    resolution: {integrity: sha1-7WYD6TY2qWIDxpFb5BFyRcG9La8=, tarball: '@rollup/rollup-win32-arm64-msvc/download/@rollup/rollup-win32-arm64-msvc-4.18.0.tgz'}
+    cpu: [arm64]
+    os: [win32]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@rollup/rollup-win32-ia32-msvc/4.18.0:
+    resolution: {integrity: sha1-FOC0BLHCXr5hV6Fe25xGlZunTFQ=, tarball: '@rollup/rollup-win32-ia32-msvc/download/@rollup/rollup-win32-ia32-msvc-4.18.0.tgz'}
+    cpu: [ia32]
+    os: [win32]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@rollup/rollup-win32-x64-msvc/4.18.0:
+    resolution: {integrity: sha1-XWlNNFzja27PZXNJ4D64cpfmjaQ=, tarball: '@rollup/rollup-win32-x64-msvc/download/@rollup/rollup-win32-x64-msvc-4.18.0.tgz'}
+    cpu: [x64]
+    os: [win32]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@types/estree/1.0.5:
+    resolution: {integrity: sha1-ps4+VW4A/ZiV3Yct0XKtDUvWh/Q=, tarball: '@types/estree/download/@types/estree-1.0.5.tgz'}
+    dev: false
+
+  /@types/node/20.14.0:
+    resolution: {integrity: sha1-Sc7sezT4YhRwz/RGd/qdRhpHfxc=, tarball: '@types/node/download/@types/node-20.14.0.tgz'}
+    dependencies:
+      undici-types: 5.26.5
+
+  /cac/6.7.14:
+    resolution: {integrity: sha1-gE4eb1Bu42PLDjzLsJytXdmHCVk=, tarball: cac/download/cac-6.7.14.tgz}
+    engines: {node: '>=8'}
+    dev: false
+
+  /esbuild/0.20.2:
+    resolution: {integrity: sha1-nWsjhlYXZu5rWlUZbG12bSjIfqE=, tarball: esbuild/download/esbuild-0.20.2.tgz}
+    engines: {node: '>=12'}
+    hasBin: true
+    requiresBuild: true
+    optionalDependencies:
+      '@esbuild/aix-ppc64': 0.20.2
+      '@esbuild/android-arm': 0.20.2
+      '@esbuild/android-arm64': 0.20.2
+      '@esbuild/android-x64': 0.20.2
+      '@esbuild/darwin-arm64': 0.20.2
+      '@esbuild/darwin-x64': 0.20.2
+      '@esbuild/freebsd-arm64': 0.20.2
+      '@esbuild/freebsd-x64': 0.20.2
+      '@esbuild/linux-arm': 0.20.2
+      '@esbuild/linux-arm64': 0.20.2
+      '@esbuild/linux-ia32': 0.20.2
+      '@esbuild/linux-loong64': 0.20.2
+      '@esbuild/linux-mips64el': 0.20.2
+      '@esbuild/linux-ppc64': 0.20.2
+      '@esbuild/linux-riscv64': 0.20.2
+      '@esbuild/linux-s390x': 0.20.2
+      '@esbuild/linux-x64': 0.20.2
+      '@esbuild/netbsd-x64': 0.20.2
+      '@esbuild/openbsd-x64': 0.20.2
+      '@esbuild/sunos-x64': 0.20.2
+      '@esbuild/win32-arm64': 0.20.2
+      '@esbuild/win32-ia32': 0.20.2
+      '@esbuild/win32-x64': 0.20.2
+    dev: false
+
+  /fsevents/2.3.3:
+    resolution: {integrity: sha1-ysZAd4XQNnWipeGlMFxpezR9kNY=, tarball: fsevents/download/fsevents-2.3.3.tgz}
+    engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
+    os: [darwin]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /nanoid/3.3.7:
+    resolution: {integrity: sha1-0MMBppG8jVTvoKIibM8/4v1la9g=, tarball: nanoid/download/nanoid-3.3.7.tgz}
+    engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
+    hasBin: true
+    dev: false
+
+  /picocolors/1.0.1:
+    resolution: {integrity: sha1-qK1Xm1cZUvDl0liS3lRFvP4lqqE=, tarball: picocolors/download/picocolors-1.0.1.tgz}
+    dev: false
+
+  /postcss/8.4.38:
+    resolution: {integrity: sha1-s4fVM7ryBUKI4zcGbYHGvunbng4=, tarball: postcss/download/postcss-8.4.38.tgz}
+    engines: {node: ^10 || ^12 || >=14}
+    dependencies:
+      nanoid: 3.3.7
+      picocolors: 1.0.1
+      source-map-js: 1.2.0
+    dev: false
+
+  /rollup/4.18.0:
+    resolution: {integrity: sha1-SX9g8MUwjkYCz0ETYzn7+H1fXdo=, tarball: rollup/download/rollup-4.18.0.tgz}
+    engines: {node: '>=18.0.0', npm: '>=8.0.0'}
+    hasBin: true
+    dependencies:
+      '@types/estree': 1.0.5
+    optionalDependencies:
+      '@rollup/rollup-android-arm-eabi': 4.18.0
+      '@rollup/rollup-android-arm64': 4.18.0
+      '@rollup/rollup-darwin-arm64': 4.18.0
+      '@rollup/rollup-darwin-x64': 4.18.0
+      '@rollup/rollup-linux-arm-gnueabihf': 4.18.0
+      '@rollup/rollup-linux-arm-musleabihf': 4.18.0
+      '@rollup/rollup-linux-arm64-gnu': 4.18.0
+      '@rollup/rollup-linux-arm64-musl': 4.18.0
+      '@rollup/rollup-linux-powerpc64le-gnu': 4.18.0
+      '@rollup/rollup-linux-riscv64-gnu': 4.18.0
+      '@rollup/rollup-linux-s390x-gnu': 4.18.0
+      '@rollup/rollup-linux-x64-gnu': 4.18.0
+      '@rollup/rollup-linux-x64-musl': 4.18.0
+      '@rollup/rollup-win32-arm64-msvc': 4.18.0
+      '@rollup/rollup-win32-ia32-msvc': 4.18.0
+      '@rollup/rollup-win32-x64-msvc': 4.18.0
+      fsevents: 2.3.3
+    dev: false
+
+  /source-map-js/1.2.0:
+    resolution: {integrity: sha1-FrgJwWJRe1uMPn3NMVoqXCYSsq8=, tarball: source-map-js/download/source-map-js-1.2.0.tgz}
+    engines: {node: '>=0.10.0'}
+    dev: false
+
+  /typescript/5.4.5:
+    resolution: {integrity: sha1-QszvLFcf29D2cYsdH15uXvAG9hE=, tarball: typescript/download/typescript-5.4.5.tgz}
+    engines: {node: '>=14.17'}
+    hasBin: true
+    dev: true
+
+  /undici-types/5.26.5:
+    resolution: {integrity: sha1-vNU5iT0AtW6WT9JlekhmsiGmVhc=, tarball: undici-types/download/undici-types-5.26.5.tgz}
+
+  /vite/5.2.12_@types+node@20.14.0:
+    resolution: {integrity: sha1-NTbJPFi6GO3qSRWirFc+ZTdAnZc=, tarball: vite/download/vite-5.2.12.tgz}
+    engines: {node: ^18.0.0 || >=20.0.0}
+    hasBin: true
+    peerDependencies:
+      '@types/node': ^18.0.0 || >=20.0.0
+      less: '*'
+      lightningcss: ^1.21.0
+      sass: '*'
+      stylus: '*'
+      sugarss: '*'
+      terser: ^5.4.0
+    peerDependenciesMeta:
+      '@types/node':
+        optional: true
+      less:
+        optional: true
+      lightningcss:
+        optional: true
+      sass:
+        optional: true
+      stylus:
+        optional: true
+      sugarss:
+        optional: true
+      terser:
+        optional: true
+    dependencies:
+      '@types/node': 20.14.0
+      esbuild: 0.20.2
+      postcss: 8.4.38
+      rollup: 4.18.0
+    optionalDependencies:
+      fsevents: 2.3.3
+    dev: false

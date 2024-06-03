@@ -1,0 +1,22 @@
+{
+  "name": "siland-monorepo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc -w"
+  },
+  "bin": {
+    "siland": "bin/siland.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "cac": "^6.7.14",
+    "vite": "^5.2.12"
+  }
+}
