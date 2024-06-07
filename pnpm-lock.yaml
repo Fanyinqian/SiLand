@@ -1,27 +1,33 @@
 lockfileVersion: 5.3
 
 specifiers:
+  '@types/fs-extra': ^11.0.4
   '@types/node': ^20.14.0
   '@types/react': ^18.3.3
   '@types/react-dom': ^18.3.0
   '@vitejs/plugin-react': ^4.3.0
   cac: ^6.7.14
+  fs-extra: ^11.2.0
   react: ^18.3.1
   react-dom: ^18.3.1
+  rollup: ^4.18.0
   typescript: ^5.4.5
   vite: ^5.2.12
 
 dependencies:
   '@vitejs/plugin-react': 4.3.0_vite@5.2.12
   cac: 6.7.14
+  fs-extra: 11.2.0
   react: 18.3.1
   react-dom: 18.3.1_react@18.3.1
   vite: 5.2.12_@types+node@20.14.0
 
 devDependencies:
+  '@types/fs-extra': 11.0.4
   '@types/node': 20.14.0
   '@types/react': 18.3.3
   '@types/react-dom': 18.3.0
+  rollup: 4.18.0
   typescript: 5.4.5
 
 packages:
@@ -490,7 +496,6 @@ packages:
     cpu: [arm]
     os: [android]
     requiresBuild: true
-    dev: false
     optional: true
 
   /@rollup/rollup-android-arm64/4.18.0:
@@ -498,7 +503,6 @@ packages:
     cpu: [arm64]
     os: [android]
     requiresBuild: true
-    dev: false
     optional: true
 
   /@rollup/rollup-darwin-arm64/4.18.0:
@@ -506,7 +510,6 @@ packages:
     cpu: [arm64]
     os: [darwin]
     requiresBuild: true
-    dev: false
     optional: true
 
   /@rollup/rollup-darwin-x64/4.18.0:
@@ -514,7 +517,6 @@ packages:
     cpu: [x64]
     os: [darwin]
     requiresBuild: true
-    dev: false
     optional: true
 
   /@rollup/rollup-linux-arm-gnueabihf/4.18.0:
@@ -522,7 +524,6 @@ packages:
     cpu: [arm]
     os: [linux]
     requiresBuild: true
-    dev: false
     optional: true
 
   /@rollup/rollup-linux-arm-musleabihf/4.18.0:
@@ -530,7 +531,6 @@ packages:
     cpu: [arm]
     os: [linux]
     requiresBuild: true
-    dev: false
     optional: true
 
   /@rollup/rollup-linux-arm64-gnu/4.18.0:
@@ -538,7 +538,6 @@ packages:
     cpu: [arm64]
     os: [linux]
     requiresBuild: true
-    dev: false
     optional: true
 
   /@rollup/rollup-linux-arm64-musl/4.18.0:
@@ -546,7 +545,6 @@ packages:
     cpu: [arm64]
     os: [linux]
     requiresBuild: true
-    dev: false
     optional: true
 
   /@rollup/rollup-linux-powerpc64le-gnu/4.18.0:
@@ -554,7 +552,6 @@ packages:
     cpu: [ppc64]
     os: [linux]
     requiresBuild: true
-    dev: false
     optional: true
 
   /@rollup/rollup-linux-riscv64-gnu/4.18.0:
@@ -562,7 +559,6 @@ packages:
     cpu: [riscv64]
     os: [linux]
     requiresBuild: true
-    dev: false
     optional: true
 
   /@rollup/rollup-linux-s390x-gnu/4.18.0:
@@ -570,7 +566,6 @@ packages:
     cpu: [s390x]
     os: [linux]
     requiresBuild: true
-    dev: false
     optional: true
 
   /@rollup/rollup-linux-x64-gnu/4.18.0:
@@ -578,7 +573,6 @@ packages:
     cpu: [x64]
     os: [linux]
     requiresBuild: true
-    dev: false
     optional: true
 
   /@rollup/rollup-linux-x64-musl/4.18.0:
@@ -586,7 +580,6 @@ packages:
     cpu: [x64]
     os: [linux]
     requiresBuild: true
-    dev: false
     optional: true
 
   /@rollup/rollup-win32-arm64-msvc/4.18.0:
@@ -594,7 +587,6 @@ packages:
     cpu: [arm64]
     os: [win32]
     requiresBuild: true
-    dev: false
     optional: true
 
   /@rollup/rollup-win32-ia32-msvc/4.18.0:
@@ -602,7 +594,6 @@ packages:
     cpu: [ia32]
     os: [win32]
     requiresBuild: true
-    dev: false
     optional: true
 
   /@rollup/rollup-win32-x64-msvc/4.18.0:
@@ -610,7 +601,6 @@ packages:
     cpu: [x64]
     os: [win32]
     requiresBuild: true
-    dev: false
     optional: true
 
   /@types/babel__core/7.20.5:
@@ -644,7 +634,19 @@ packages:
 
   /@types/estree/1.0.5:
     resolution: {integrity: sha1-ps4+VW4A/ZiV3Yct0XKtDUvWh/Q=, tarball: '@types/estree/download/@types/estree-1.0.5.tgz'}
-    dev: false
+
+  /@types/fs-extra/11.0.4:
+    resolution: {integrity: sha1-4WqGO7iEP7qMUAQ2K1pz4XvsykU=, tarball: '@types/fs-extra/download/@types/fs-extra-11.0.4.tgz'}
+    dependencies:
+      '@types/jsonfile': 6.1.4
+      '@types/node': 20.14.0
+    dev: true
+
+  /@types/jsonfile/6.1.4:
+    resolution: {integrity: sha1-YUr+waEWTn1nC0p61k3z5763twI=, tarball: '@types/jsonfile/download/@types/jsonfile-6.1.4.tgz'}
+    dependencies:
+      '@types/node': 20.14.0
+    dev: true
 
   /@types/node/20.14.0:
     resolution: {integrity: sha1-Sc7sezT4YhRwz/RGd/qdRhpHfxc=, tarball: '@types/node/download/@types/node-20.14.0.tgz'}
@@ -795,12 +797,20 @@ packages:
     engines: {node: '>=0.8.0'}
     dev: false
 
+  /fs-extra/11.2.0:
+    resolution: {integrity: sha1-5w4X361kIyKH0BkpOZ4Op8hrDls=, tarball: fs-extra/download/fs-extra-11.2.0.tgz}
+    engines: {node: '>=14.14'}
+    dependencies:
+      graceful-fs: 4.2.11
+      jsonfile: 6.1.0
+      universalify: 2.0.1
+    dev: false
+
   /fsevents/2.3.3:
     resolution: {integrity: sha1-ysZAd4XQNnWipeGlMFxpezR9kNY=, tarball: fsevents/download/fsevents-2.3.3.tgz}
     engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
     os: [darwin]
     requiresBuild: true
-    dev: false
     optional: true
 
   /gensync/1.0.0-beta.2:
@@ -811,6 +821,10 @@ packages:
   /globals/11.12.0:
     resolution: {integrity: sha1-q4eVM4hooLq9hSV1gBjCp+uVxC4=, tarball: globals/download/globals-11.12.0.tgz}
     engines: {node: '>=4'}
+    dev: false
+
+  /graceful-fs/4.2.11:
+    resolution: {integrity: sha1-QYPk6L8Iu24Fu7L30uDI9xLKQOM=, tarball: graceful-fs/download/graceful-fs-4.2.11.tgz}
     dev: false
 
   /has-flag/3.0.0:
@@ -832,6 +846,14 @@ packages:
     resolution: {integrity: sha1-eM1vGhm9wStz21rQxh79ZsHikoM=, tarball: json5/download/json5-2.2.3.tgz}
     engines: {node: '>=6'}
     hasBin: true
+    dev: false
+
+  /jsonfile/6.1.0:
+    resolution: {integrity: sha1-vFWyY0eTxnnsZAMJTrE2mKbsCq4=, tarball: jsonfile/download/jsonfile-6.1.0.tgz}
+    dependencies:
+      universalify: 2.0.1
+    optionalDependencies:
+      graceful-fs: 4.2.11
     dev: false
 
   /loose-envify/1.4.0:
@@ -920,7 +942,6 @@ packages:
       '@rollup/rollup-win32-ia32-msvc': 4.18.0
       '@rollup/rollup-win32-x64-msvc': 4.18.0
       fsevents: 2.3.3
-    dev: false
 
   /scheduler/0.23.2:
     resolution: {integrity: sha1-QUumSjsoKJLpRM8hCOzAeNEVzcM=, tarball: scheduler/download/scheduler-0.23.2.tgz}
@@ -958,6 +979,11 @@ packages:
 
   /undici-types/5.26.5:
     resolution: {integrity: sha1-vNU5iT0AtW6WT9JlekhmsiGmVhc=, tarball: undici-types/download/undici-types-5.26.5.tgz}
+
+  /universalify/2.0.1:
+    resolution: {integrity: sha1-Fo78IYCWTmOG0GHglN9hr+I5sY0=, tarball: universalify/download/universalify-2.0.1.tgz}
+    engines: {node: '>= 10.0.0'}
+    dev: false
 
   /update-browserslist-db/1.0.16_browserslist@4.23.0:
     resolution: {integrity: sha1-9tSJ7ZD7LwfWd4TrP1PXiR9zY1Y=, tarball: update-browserslist-db/download/update-browserslist-db-1.0.16.tgz}
