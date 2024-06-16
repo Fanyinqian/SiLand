@@ -1,0 +1,19 @@
+{
+  "name": "basic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "dev": "siland dev docs",
+    "build": "siland build docs",
+    "preview": "siland start docs"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "silandjs": "../../.."
+  }
+}
